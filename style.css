@@ -1,0 +1,177 @@
+/* Challenge Project: Build a Website Design System */
+
+body {
+  background-color:#f8f8ff;
+}
+
+header {
+  background-image: linear-gradient(to right, rgba(243, 129, 129, 0), rgba(149, 225, 211, 1));
+  display: block;
+  width: 100%;
+  border-right: 1px solid #333;
+  font-weight: 500;
+  font-style: italic;
+}
+
+#htext {
+  font-family: 'Cormorant', serif;
+  color: #333;
+  text-align: center;
+}
+
+navbar {
+
+}
+
+/* Colors CSS */
+#colors {
+  display: block;
+  font-family: 'Cormorant', serif;
+  border-left: 1px solid #333;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+#color1 {
+  background-color: #F38181;
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  display: inline-block;
+  width: 40%;
+  text-align: justify;
+  margin: 20px auto;
+  min-height: 100%;
+}
+
+#color1 p {
+  margin: 10px;
+}
+
+#color2 {
+  background-color: #FCE38A;
+  font-family: 'Montserrat', sans-serif;
+  color: floralwhite;
+  display: inline-block;
+  width: 40%;
+  text-align: justify;
+  margin: 20px auto;
+  min-height: 100%;
+}
+
+#color2 p {
+  margin: 10px;
+}
+
+/* #color3 {
+  background-color: #EAFFD0;
+  font-family: 'Montserrat', sans-serif;
+  color: floralwhite;
+  display: inline-block;
+  width: 40%;
+  text-align: justify;
+  margin: 20px auto;
+  min-height: 100%;
+}
+
+#color3 p {
+  margin: 10px;
+} */
+
+#color3 {
+  background-color: #95E1D3;
+  font-family: 'Montserrat', sans-serif;
+  color: floralwhite;
+  display: inline-block;
+  width: 40%;
+  text-align: justify;
+  margin: 20px auto;
+  min-height: 100%;
+}
+
+#color3 p {
+  margin: 10px;
+}
+
+#color4 {
+  background-color: #333;
+  font-family: 'Montserrat', sans-serif;
+  color: floralwhite;
+  display: inline-block;
+  width: 40%;
+  text-align: justify;
+  margin: 20px auto;
+  min-height: 100%;;
+}
+
+#color4 p {
+  margin: 10px;
+}
+
+/* Fonts CSS */
+#fonts {
+  display: block;
+  font-family: 'Cormorant', serif;
+  border-left: 1px solid #333;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+#font1 {
+  width: 65%;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#font2 {
+  width: 65%;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Cormorant', serif;
+}
+
+#font3 {
+  width: 65%;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Yeseva', serif;
+}
+
+
+
+/* Text Styles */
+#styles {
+  display: block;
+  font-family: 'Cormorant', serif;
+  border-left: 1px solid #333;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.style {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .89em;
+}
+
+ul .style {
+  list-style: circle;
+}
+
+#styles #h1 {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 2em;
+}
+
+#styles #h2 {
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+#styles #paragraph {
+  font-weight: 100;
+  font-size: .89em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
