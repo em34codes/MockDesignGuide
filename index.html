@@ -1,110 +1,168 @@
+<!-- Challenge Project: Build a Website Design System -->
+
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mrunal's Style Gude/Design System</title>  
-  <link rel="stylesheet" href="../Project 09 - Mock Design System/style.css">
+  <title>Mock Style Gude/Design System</title>  
+  <link rel="stylesheet" href="../Project 09 - Mock Design System/styles.css">
 
-<!-- Challenge Project: Build a Website Design System -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Font Imports -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;1,500&family=Montserrat:wght@100&display=swap" rel="stylesheet">
-
+  <!-- Font Imports -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;1,600&family=Montserrat:wght@200&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
   <!-- header -->
   <header>
-    <h1 id="htext">Mrunal's Style Guide/Design System</h1>
+    <h1>Mock Style Guide/Design System</h1>
   </header>
+
+  <!-- navigation -->
+  <nav>
+    <a href="#">Color Palette</a>
+    <a href="#">Fonts</a>
+    <a href="#">Text Styles</a>
+  </nav>
 
 <!-- Main Section -->
 <main>
   
   <!-- Colors Section -->
   <section id="colors">
-    <h2>The Color Palette</h2>
     <div class="details">
+      <h2>The Color Palette</h2>
 
-      <!-- 1st color -->
-      <div id="color1">
-        <p>#F38181</p>
-      </div>
-      
-      <!-- 2nd color -->
-      <div id="color2">
-        <p>#827397</p>
-      </div>
+        <!-- 1st color -->
+        <div id="color1">
+          <p>#163020</p>
+        </div>
+        
+        <!-- 2nd color -->
+        <div id="color2">
+          <p>#034D30</p>
+        </div>
 
-      <!-- 3rd color -->
-      <div id="color3">
-        <p>#363062</p>
-      </div>
+        <!-- 3rd color -->
+        <div id="color3">
+          <p>#4F6F52</p>
+        </div>
 
-      <!-- 4th color -->
-      <div id="color4">
-        <p>#333333</p>
-      </div>
+        <!-- 4th color -->
+        <div id="color4">
+          <p>#739072</p>
+        </div>
 
-    </div><!-- details div -->
+        <!-- 5th color -->
+        <div id="color5">
+          <p>#86A789</p>
+        </div>
+
+        <!-- 6th color -->
+        <div id="color6">
+          <p>#D2E3C8</p>
+        </div>
+
+        <!-- 7th Color -->
+        <div id="color7">
+          <p>#EEF0E5</p>
+        </div>
+
+        <!--8th Color -->
+        <div id="color8">
+          <p>#B6C4B6</p>
+        </div>
+
+        <!-- 9th Color -->
+        <div id="color9">
+          <p>#333333</p>
+        </div>
+
+        <!-- 10th Color -->
+        <div id="color10">
+          <p>#F3F3F3</p>
+        </div>
+    </div><!-- Details div for colors -->
   </section>
 
   <!-- Fonts Section-->
   <section id="fonts">
-    <h2>The Fonts</h2>
     <div class="details">
+      <h2>The Fonts</h2>
       
+      <div class="column">
       <!-- 1st font -->
-      <div id="font1">
-        <p id="Montserrat">Montserrat</p>
-        <p class="quickfox">The quick brown fox jumps over the lazy dog.</p>
-      </div>
+        <div id="font1">
+          <h3>Montserrat</h3>
+          <p>The quick brown fox jumps over the lazy dog.</p>
+        </div>
+      </div><!-- 1st Font Column -->
 
+       <div class="column">
       <!-- 2nd font -->
-      <div id="font2">
-        <p id="Cormorant">Cormorant</p>
-        <p class="quickfox">The quick brown fox jumps over the lazy dog.</p>
-      </div>
+        <div id="font2">
+          <h3>Cormorant</h3>
+          <p>The quick brown fox jumps over the lazy dog.</p>
+        </div>
+      </div><!-- 2nd Font Column -->
 
+      <div class="column">
+      <!-- 3rd Font -->
+        <div id="font3">
+          <h3>Playfair Display</h3>
+          <p>The quick brown fox jumps over the lazy dog.</p>
+        </div>
+      </div> <!-- 3rd Font Column -->
     </div> <!-- details div -->
   </section>
 
   <!-- Text Styles -->
   <section id="styles">
-    <h2>The Text Styles</h2>
     <div class="details">
-    
-      <!-- Style 1 -->
-      <div id="style1">
-        <h1 id="h1">H1: Main Page Heading Style Details</h1>
-        <ul>
-          <li class="style">Font Weight: 500</li>
-          <li class="style">Font-Size: 2em</li>
-          <li class="style">Font Family: Cormorant</li>
-          <li class="style">Font Style: Italic</li>
-        </ul>
-      </div>
+      <h2>The Text Styles</h2>
 
-      <!-- Style 2 -->
-      <div id="style2">
-        <h2 id="h2">H2: Subheading Style Details</h2>
-        <ul>
-          <li class="style">Font Weight: 400</li>
-          <li class="style">Font-Size: 1.5em</li>
-          <li class="style">Font Family: Cormorant</li>
-        </ul>
-      </div>
+      <div class="column">
+        <!-- Style 1 -->
+        <div id="style1">
+          <h1>H1: Main Page Heading Style Details</h1>
+          <ul>
+            <li>Font Weight: 600</li>
+            <li>Font-Size: 4em</li>
+            <li>Font Family: Playfair Display</li>
+            <li>Font Style: Regular Italic</li>
+          </ul>
+        </div>
+      </div><!-- Text Styles Column 1 -->
 
+      <div class="column">
+        <!-- Style 2 -->
+        <div id="style2">
+          <h2>H2: Subheading Style Details</h2>
+          <ul>
+            <li>Font Weight: 400</li>
+            <li>Font-Size: 1.5em</li>
+            <li>Font Family: Cormorant</li>
+            <li>Font Style: Italic</li>
+          </ul> 
+        </div>
+      </div><!-- Text Styles Column 2 -->
+
+      <div class="column">
       <!-- Style 3 -->
-      <div id="style3">
-        <p id="paragraph">Paragraph Style Details</p>
-        <ul>
-          <li class="style">Font Weight: 100</li>
-          <li class="style">Font-Size: .89em</li>
-          <li class="style">Font Family: Montserrat</li>
-        </ul>
-      </div>
+        <div id="style3">
+          <p>Paragraph Style Details</p>
+          <ul>
+            <li>Font Weight: 200</li>
+            <li>Font-Size: 1em</li>
+            <li>Font Family: Montserrat</li>
+            <li>Font Style: Extra Light</li>
+          </ul>
+        </div>
+      </div><!-- Text Styles Column 3 -->
     </div> <!-- details div -->
   </section>
 
