@@ -1,177 +1,232 @@
 /* Challenge Project: Build a Website Design System */
 
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 100%;
+}
+
 body {
-  background-color:#f8f8ff;
+    background-color: #eef0e5;
+    color: #0d1317;
+    position: relative;
+    max-height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
-header {
-  background-image: linear-gradient(to right, rgba(243, 129, 129, 0), rgba(149, 225, 211, 1));
-  display: block;
-  width: 100%;
-  border-right: 1px solid #333;
-  font-weight: 500;
-  font-style: italic;
+/* Navigation Styles */
+nav {
+    overflow: hidden;
+    background-color: #f3f3f3;
+    font-size: 20px;
 }
 
-#htext {
-  font-family: 'Cormorant', serif;
-  color: #333;
-  text-align: center;
+nav a {
+    color: #333;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-navbar {
-
+nav a:hover {
+    background-color: #4f6f52;
+    color: #EEF0E5;
 }
 
-/* Colors CSS */
-#colors {
-  display: block;
-  font-family: 'Cormorant', serif;
-  border-left: 1px solid #333;
-  font-size: 20px;
-  padding-left: 10px;
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size:  4em;
+    padding: 20px;
+    margin: 50px;
+    color: #739072;
+    text-align: center;
+    text-shadow: 1px 1px #163020;
 }
 
+/* details containers */
+.details {
+    max-width: 90%;
+    height: auto;
+    margin: 20px auto;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    border-bottom: 2px solid #4f6f52;
+    padding: 20px;
+}
+
+.details h2 {
+    font-family: 'Cormorant', serif;
+    font-weight: 400;
+    font-size: 2em;
+    font-style: italic;
+}
+
+/* Column Styles */
+.column {
+    float: left;
+    width: 33.3%;
+    flex-flow: column;
+}
+
+/* Clear floats after the columns */
+.details::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Color Styles */
 #color1 {
-  background-color: #F38181;
-  font-family: 'Montserrat', sans-serif;
-  color: #333;
-  display: inline-block;
-  width: 40%;
-  text-align: justify;
-  margin: 20px auto;
-  min-height: 100%;
-}
-
-#color1 p {
-  margin: 10px;
+    background-color: #163020;
+    color: #f3f3f3;
+    text-align: center;
+    margin: auto 10px;
+    font-size: 18px;
+    position: relative;
 }
 
 #color2 {
-  background-color: #FCE38A;
-  font-family: 'Montserrat', sans-serif;
-  color: floralwhite;
-  display: inline-block;
-  width: 40%;
-  text-align: justify;
-  margin: 20px auto;
-  min-height: 100%;
+    background-color: #034D30;
+    color: #f3f3f3;
+    text-align: center;
+    margin: auto 10px;
+    font-size: 18px;
+    position: relative;
 }
-
-#color2 p {
-  margin: 10px;
-}
-
-/* #color3 {
-  background-color: #EAFFD0;
-  font-family: 'Montserrat', sans-serif;
-  color: floralwhite;
-  display: inline-block;
-  width: 40%;
-  text-align: justify;
-  margin: 20px auto;
-  min-height: 100%;
-}
-
-#color3 p {
-  margin: 10px;
-} */
 
 #color3 {
-  background-color: #95E1D3;
-  font-family: 'Montserrat', sans-serif;
-  color: floralwhite;
-  display: inline-block;
-  width: 40%;
-  text-align: justify;
-  margin: 20px auto;
-  min-height: 100%;
-}
-
-#color3 p {
-  margin: 10px;
+    background-color: #4f6f52;
+    color: #f3f3f3;
+    text-align: center;
+    margin: auto 10px;
+    font-size: 18px;
+    position: relative;
 }
 
 #color4 {
-  background-color: #333;
-  font-family: 'Montserrat', sans-serif;
-  color: floralwhite;
-  display: inline-block;
-  width: 40%;
-  text-align: justify;
-  margin: 20px auto;
-  min-height: 100%;;
+    background-color: #739072;
+    color: #f3f3f3;
+    text-align: center;
+    margin: auto 10px;
+    font-size: 18px;
+    position: relative;
 }
 
-#color4 p {
-  margin: 10px;
+#color5 {
+    background-color: #86A789;
+    text-align: center;
+    margin: auto 10px;
+    font-size: 18px;
+    position: relative;
 }
 
-/* Fonts CSS */
-#fonts {
-  display: block;
-  font-family: 'Cormorant', serif;
-  border-left: 1px solid #333;
-  font-size: 20px;
-  padding-left: 10px;
+#color6 {
+    background-color: #D2E3C8;
+    text-align: center;
+    margin: auto 10px;
+    font-size: 18px;
+    position: relative;
 }
 
+#color7 {
+    background-color: #EEF0E5;
+    text-align: center;
+    margin: auto 10px;
+    font-size: 18px;
+    position: relative;
+}
+
+#color8 {
+    background-color: #B6C4B6 ;
+    text-align: center;
+    margin: auto 10px;
+    font-size: 18px;
+    position: relative;
+}
+
+#color9 {
+    background-color: #333;
+    color: #f3f3f3;
+    text-align: center;
+    margin: auto 10px;
+    font-size: 18px;
+    position: relative;
+}
+
+#color10 {
+    background-color: #f3f3f3;
+    text-align: center;
+    margin: auto 10px;
+    font-size: 18px;
+    position: relative;
+}
+
+/* Font Styles */
 #font1 {
-  width: 65%;
-  display: inline-block;
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
 }
 
 #font2 {
-  width: 65%;
-  display: inline-block;
-  font-size: 20px;
-  font-family: 'Cormorant', serif;
+    font-family: 'Cormorant', serif;
+    font-size: 18px;
+    
 }
 
 #font3 {
-  width: 65%;
-  display: inline-block;
-  font-size: 20px;
-  font-family: 'Yeseva', serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
 }
-
-
 
 /* Text Styles */
-#styles {
-  display: block;
-  font-family: 'Cormorant', serif;
-  border-left: 1px solid #333;
-  font-size: 20px;
-  padding-left: 10px;
+#style1 h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 4em;
 }
 
-.style {
-  font-family: 'Montserrat', sans-serif;
-  font-size: .89em;
+#style2 {
+    padding-top: 50px;
 }
 
-ul .style {
-  list-style: circle;
+#style2 h2 {
+    font-family: 'Cormorant', serif;
+    font-weight: 400;
+    font-size: 2em;
+    font-style: italic;
 }
 
-#styles #h1 {
-  font-weight: 500;
-  font-style: italic;
-  font-size: 2em;
+#style3 {
+    padding-top: 55px;
 }
 
-#styles #h2 {
-  font-weight: 400;
-  font-size: 1.5em;
+#style3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 1em;
 }
 
-#styles #paragraph {
-  font-weight: 100;
-  font-size: .89em;
-  font-family: 'Montserrat', sans-serif;
+/* Media query to make layout responsive */
+/* Makes 3 columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
 }
 
-
+/* Media query to make navigation bar responsive */
+@media screen and (max-width: 600px) {
+    nav a {
+        float: none;
+        display: block;
+        position: relative;
+    }
+}
